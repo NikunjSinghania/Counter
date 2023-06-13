@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height :100vh;
+    width: 100vw;
+    background-image: linear-gradient(66deg, pink, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    appearance: none;
+    padding: 20px;
+    margin: 20px;
+}
+
+button:hover {
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10vw;
+}
